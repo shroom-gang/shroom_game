@@ -34,5 +34,3 @@ a game about shrooms
 	little descriptions
 	mystic comes from geodes
 	latin naming scheme as default
-
-consult ideas.txt for info
