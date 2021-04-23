@@ -4,9 +4,16 @@ mechanics
 	fungal growth character creation
 		procederal character geeneration affected by environment of shroom
 	rogue-like (maybe more modes in future)
+	stats
+		defence
+		health
+		attack damage
+		magick
+	stat modifiers will be set depending on initial environment eg 1.2x magicka stats if starting biome is forest
 design
 	mushroom theme
 	simplistic
 	grow mushroom as shroom farmer and once shroom is complete shroom eats you and you become the shroom
 		farmer can only attack weakly
 		find location for spores and survive for period
+	procedurally generated caves make up most of gameplay besides initial stages
