@@ -5,10 +5,12 @@ mechanics
 		procederal character geeneration affected by environment of shroom
 	rogue-like (maybe more modes in future)
 	stats
-		defence
-		health
-		attack damage
-		magick
+		vita(health)
+		pignus(defense)
+		viribus(strength)
+		mystic(magic)
+		finesse(dexterity)
+		
 	stat modifiers 
 		will be set depending on initial environment eg 1.2x magick stats if starting biome is forest
 	evolution mechanics
