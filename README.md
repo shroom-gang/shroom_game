@@ -19,11 +19,11 @@ a game about shrooms
 		  	motum (agility)
 			
 			stat modifiers 
-		  		will be set depending on resources consumed during colonisation eg 1.2x magick stats if geode is consmued
+		  		will be set depending on resources consumed during colonisation
 				will affect appearance
 			traits
-				will be set based on the environment the fungus is in during colonisation
-	
+				will be set based on the environment during colonisation
+	                        will affect appearance
 	three primary gameplay phases spore, colonisation and fruiting
 
 ### design
