@@ -1,2 +1,2 @@
 # shroom_game
-a game about shrooms lol
+a game about shrooms
