@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-IDEAS
-=======
 technical
 	local host online
 mechanics
@@ -13,5 +10,3 @@ design
 	grow mushroom as shroom farmer and once shroom is complete shroom eats you and you become the shroom
 		farmer can only attack weakly
 		find location for spores and survive for period
-		
->>>>>>> 45d0b74 (THIS IS NEW ADDITION)
