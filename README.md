@@ -24,7 +24,7 @@ a game about shrooms
 			traits
 				will be set based on the environment the fungus is in during colonisation
 	
-	spore gameplay phase?
+	three primary gameplay phases spore, colonisation and fruiting
 
 ### design
 	mushroom theme
