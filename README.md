@@ -6,11 +6,11 @@ a game about shrooms
 	      local host online
 	      godot engine
 ### mechanics
-	**character**
-		**character generation and evolution**
+	character
+		generation and evolution
 			appearence affected by stats and traits
 		
-		**stats**
+		stats
 		  	vita (health)
 		  	pignus (defense)
 		  	viribus (strength)
