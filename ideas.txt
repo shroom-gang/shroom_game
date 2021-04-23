@@ -1,1 +1,17 @@
+<<<<<<< HEAD
 IDEAS
+=======
+technical
+	local host online
+mechanics
+	fungal growth character creation
+		procederal character geeneration affected by environment of shroom
+	rogue-like (maybe more modes in future)
+design
+	mushroom theme
+	simplistic
+	grow mushroom as shroom farmer and once shroom is complete shroom eats you and you become the shroom
+		farmer can only attack weakly
+		find location for spores and survive for period
+		
+>>>>>>> 45d0b74 (THIS IS NEW ADDITION)
