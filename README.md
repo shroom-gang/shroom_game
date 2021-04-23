@@ -4,33 +4,37 @@ a game about shrooms
 ## ideas
 ### technical
 	      local host online
+	      godot engine
 ### mechanics
-	fungal growth character creation
-		      procederal character geeneration affected by environment of shroom
-	        rogue-like (maybe more modes in future)
-	stats
-		  vita(health)
-		  pignus(defense)
-		  viribus(strength)
-		  mystic(magic)
-		  finesse(dexterity)
+	**character**
+		**character generation and evolution**
+			appearence affected by stats and traits
 		
-	  stat modifiers 
-		  will be set depending on initial environment eg 1.2x magick stats if starting biome is forest
-	  evolution mechanics
-		  three initial or custom strains similar to classes
-		  custom strain has a point cap
-		  strains have different base stats
-		DNA code for every detail of progression for a shroom eg stat gains, resources they came from, and generation
-		  generations
-		  graphical model affected by the stats
+		**stats**
+		  	vita (health)
+		  	pignus (defense)
+		  	viribus (strength)
+		  	mystic (magic)
+		  	finesse (dexterity)
+		  	motum (agility)
+			
+			stat modifiers 
+		  		will be set depending on resources consumed during colonisation eg 1.2x magick stats if geode is consmued
+				will affect appearance
+			traits
+				will be set based on the environment the fungus is in during colonisation
+	
+	spore gameplay phase?
+
 ### design
 	mushroom theme
-	simplistic
-	grow mushroom as shroom farmer and once shroom is complete shroom eats you and you become the shroom
-		farmer can only attack weakly
-		find location for spores and survive for period
+	customisable graphics
+		texture packs
+		shaders
+	simplistic design
 	procedurally generated caves make up most of gameplay besides initial stages
-	little descriptions
+	game mechanics primarily learnt through discovery (also wiki)
+	minimal/optional grind
 	mystic comes from geodes
+	interactive world (noita inspired)
 	latin naming scheme as default
