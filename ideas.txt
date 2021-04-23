@@ -26,3 +26,7 @@ design
 		find location for spores and survive for period
 	procedurally generated caves make up most of gameplay besides initial stages
 	little descriptions
+	magick
+		magick will be called something related to geode
+		magick comes from magick crystals(name not decided upon)
+	latin naming scheme as default
