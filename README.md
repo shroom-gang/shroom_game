@@ -5,10 +5,10 @@ a game about shrooms
 ### technical
 	      local host online
 ### mechanics
-    fungal growth character creation
+	fungal growth character creation
 		      procederal character geeneration affected by environment of shroom
 	        rogue-like (maybe more modes in future)
-	  stats
+	stats
 		  vita(health)
 		  pignus(defense)
 		  viribus(strength)
