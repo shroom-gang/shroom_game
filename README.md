@@ -39,7 +39,6 @@ a game about shrooms
 
 	traits
 		will be set based on the environment or special materials during colonisation
-		idea - morphic resonance - allows you to transform into objects in the environment and camoflage
 ###### trading
 	exchange materials with roots to obtain sugars (could give achievment called "symbyosis")
 ###### phases
