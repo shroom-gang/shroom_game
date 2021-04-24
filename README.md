@@ -23,19 +23,19 @@ a game about shrooms by apk-lu and tadhg95
 ###### stats	
   	vita (health)
 		related material - 
-		effect on body - increases size
+		effect on body - changes size
   	pignus (defense)
-		related material - 
-		effect on body - increases density
+		related material - metals
+		effect on body - changes density
   	viribus (strength)
 		related material - 
 		effect on body - changes arms
   	mystic (magic)
 		related material - crystal
-		effect on body - 
+		effect on body - crystals appear on body
   	finesse (dexterity)
 		related material - 
-		effect on body - 
+		effect on body - fingers?
   	motum (agility)
 		related material - 
 		effect on body - changes legs
