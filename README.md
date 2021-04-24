@@ -1,5 +1,5 @@
 # shroom_game
-a game about shrooms
+a game about shrooms by apk-lu and tadhg95
 
 ## ideas
 ### **technical**
