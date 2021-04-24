@@ -36,7 +36,7 @@ a game about shrooms by apk-lu and tadhg95
   	finesse (dexterity)
 		related material - 
 		effect on body - fingers?
-  	motum (agility)
+  	motum (mobility)
 		related material - 
 		effect on body - changes legs
 
