@@ -6,6 +6,9 @@ a game about shrooms
 	local host online
 	godot engine
 ### **mechanics**
+	morphic resonance
+		learn blueprints for weapons that can be formed by the shroom at a resource cost
+		recipes are passed down through generations of the strain
 	three primary gameplay phases spore, colonisation and fruiting
 #### character
 ###### generation and evolution
