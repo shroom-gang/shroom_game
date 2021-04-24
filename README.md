@@ -61,5 +61,3 @@ a game about shrooms
 	customisable graphics
 		texture packs
 		shaders??
-	Low poly
-	
