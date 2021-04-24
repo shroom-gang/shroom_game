@@ -46,10 +46,9 @@ a game about shrooms by apk-lu and tadhg95
 	exchange materials with roots to obtain sugars (could give achievment called "symbyosis")
 ###### phases
 	spore
-		fly around and find a place to germinate
+		fly around and find a place to colonise
 	colonisation
-		materials consumed during this phase affect stats
-		certain materials and environments will give special traits
+		opens menu where stat points can be asigned based on materials around location
 	fruiting
 		the magority of the game where you run around and kill stuff idk
 
