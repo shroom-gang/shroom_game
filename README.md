@@ -46,6 +46,7 @@ a game about shrooms by apk-lu and tadhg95
 	exchange materials with roots to obtain sugars (could give achievment called "symbyosis")
 ###### phases
 	spore
+		fly around and find a place to germinate
 	colonisation
 		materials consumed during this phase affect stats
 		certain materials and environments will give special traits
@@ -62,4 +63,6 @@ a game about shrooms by apk-lu and tadhg95
 #### visual	
 	customisable graphics
 		texture packs
-		shaders??
+		shaders?
+#### audio
+	mushroom music https://www.youtube.com/watch?v=J-nIBA0V_No
