@@ -51,6 +51,7 @@ a game about shrooms by apk-lu and tadhg95
 		materials consumed during this phase affect stats
 		certain materials and environments will give special traits
 	fruiting
+		the magority of the game where you run around and kill stuff idk
 
 ### **design**
 	mushroom theme
@@ -65,4 +66,4 @@ a game about shrooms by apk-lu and tadhg95
 		texture packs
 		shaders?
 #### audio
-	mushroom music https://www.youtube.com/watch?v=J-nIBA0V_No
+	mushroom music https://www.youtube.com/channel/UCsmw-u-2kzPQPO5n9sTpcyA
