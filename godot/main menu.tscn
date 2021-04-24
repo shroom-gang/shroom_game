@@ -1,3 +1,56 @@
-[gd_scene format=2]
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Iosevka.tres" type="DynamicFont" id=1]
+[ext_resource path="res://iosevka-regular.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+size = 32
+font_data = ExtResource( 2 )
 
 [node name="HUD" type="Node2D"]
+
+[node name="LabelTitle" type="Label" parent="."]
+margin_left = 484.343
+margin_top = 29.137
+margin_right = 836.343
+margin_bottom = 116.137
+custom_fonts/font = ExtResource( 1 )
+text = "shroom game"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Buttons" type="Node" parent="."]
+
+[node name="ButtonPlay" type="Button" parent="Buttons"]
+margin_left = 543.206
+margin_top = 472.373
+margin_right = 779.206
+margin_bottom = 537.373
+custom_fonts/font = SubResource( 1 )
+text = "play"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonDNA" type="Button" parent="Buttons"]
+margin_left = 543.206
+margin_top = 642.961
+margin_right = 778.206
+margin_bottom = 707.961
+custom_fonts/font = SubResource( 1 )
+text = "options"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonOptions" type="Button" parent="Buttons"]
+margin_left = 543.206
+margin_top = 555.373
+margin_right = 778.206
+margin_bottom = 620.373
+custom_fonts/font = SubResource( 1 )
+text = "dna decoder"
+__meta__ = {
+"_edit_use_anchors_": false
+}
