@@ -22,13 +22,10 @@ a game about shrooms
 			
 	stat modifiers 
   		will be set depending on resources consumed during colonisation
-		will affect appearance
 	traits
 		will be set based on the environment or special materials during colonisation
-                will affect appearance
 ###### trading
 	exchange materials with roots to obtain glucose. glucose could regen health
-	
 ### **design**
 	mushroom theme
 	procedurally generated caves make up most of gameplay besides initial stages
