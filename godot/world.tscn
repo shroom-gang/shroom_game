@@ -1,11 +1,15 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://tiles.tres" type="TileSet" id=1]
 [ext_resource path="res://player.jpg" type="Texture" id=2]
 [ext_resource path="res://player.gd" type="Script" id=3]
+[ext_resource path="res://food.exr" type="Texture" id=4]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 16.1166, 16.0829 )
 
 [node name="world" type="Node2D"]
 
@@ -32,3 +36,14 @@ shape = SubResource( 1 )
 current = true
 zoom = Vector2( 0.7, 0.7 )
 smoothing_enabled = true
+
+[node name="food" type="StaticBody2D" parent="."]
+position = Vector2( 91.1615, 96.1728 )
+
+[node name="Sprite" type="Sprite" parent="food"]
+position = Vector2( 768.679, 242.025 )
+texture = ExtResource( 4 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="food"]
+position = Vector2( 768.528, 241.811 )
+shape = SubResource( 2 )
