@@ -3,7 +3,7 @@
 [ext_resource path="res://tiles.tres" type="TileSet" id=1]
 [ext_resource path="res://player.jpg" type="Texture" id=2]
 [ext_resource path="res://player.gd" type="Script" id=3]
-[ext_resource path="res://food.exr" type="Texture" id=4]
+[ext_resource path="res://food.bmp" type="Texture" id=4]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 16, 16 )
