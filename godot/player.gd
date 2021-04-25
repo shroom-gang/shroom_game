@@ -11,14 +11,11 @@ var player = {
 
 var weight = player.get("BaseStats")[0] * player.get("BaseStats")[1]
 var fallspeed = 500 + (weight * 20)
-var speed = 500 + player.get("BaseStats")[5]
-var jump = 700 + player.get("BaseStats")[5]
+var speed = 300 + (100 * player.get("BaseStats")[5])
+var jump = 500 + (100 * player.get("BaseStats")[5])
 var accel = 20 + player.get("BaseStats")[5] - (weight * 0.2)
 
 var motion = Vector2()
-
-func _ready():
-	pass # Replace with function body.
 
 func _physics_process(delta):
 	
