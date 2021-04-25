@@ -2,21 +2,28 @@ extends KinematicBody2D
 
 const UP = Vector2(0,-1)
 const GRAVITY = 15 
-var fallspeed = 500
-var speed = 500 
-var jump = -700
-var accel = 20
 
 var motion = Vector2()
+
+var player = {
+	"name" : "none",
+	"traits" : ["SillyTrait","SillyTrait2"],
+	"BaseStats" : [5,5,5,5,5,5]
+}
+
+var weight = player.get("BaseStats")[0] * player.get("BaseStats")[1]
+var speed = player.get("BaseStats")[5]
+var accel = player.get("BaseStats")[5] - weight
+var jump = player.get("BaseStats")[5] - weight
 
 func _ready():
 	pass # Replace with function body.
 
-func _physics_process(delta):
+func _physics_process(_delta):
 	
 	motion.y += GRAVITY
-	if motion.y > fallspeed:
-		motion.y = fallspeed
+	if motion.y > weight:
+		motion.y = weight
 	
 	motion.x = clamp(motion.x,-speed, speed)
 	
