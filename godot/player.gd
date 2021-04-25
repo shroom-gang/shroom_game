@@ -2,10 +2,18 @@ extends KinematicBody2D
 
 const UP = Vector2(0,-1)
 const GRAVITY = 15 
-var fallspeed = 500
-var speed = 500 
-var jump = -700
-var accel = 20
+
+var player = {
+	"name" : "none",
+	"traits" : ["SillyTrait","SillyTrait2"],
+	"BaseStats" : [1,1,1,1,1,1]
+}
+
+var weight = player.get("BaseStats")[0] * player.get("BaseStats")[1]
+var fallspeed = 500 + (weight * 20)
+var speed = 500 + player.get("BaseStats")[5]
+var jump = 700 + player.get("BaseStats")[5]
+var accel = 20 + player.get("BaseStats")[5] - (weight * 0.2)
 
 var motion = Vector2()
 
@@ -31,6 +39,6 @@ func _physics_process(delta):
 	
 	if Input.is_action_just_pressed("jump"):
 		if is_on_wall() or is_on_floor():
-			motion.y = jump
+			motion.y = -jump
 	
 	motion = move_and_slide(motion,UP)
