@@ -1,25 +1,48 @@
 extends KinematicBody
-
-var gravity = Vector3.DOWN * 12
-var speed = 50
-var accel = 20
-var jump_power = 6
-
-var velocity = Vector3()
-
+ 
+const MOVE_SPEED = 12
+const JUMP_FORCE = 30
+const GRAVITY = 0.98
+const MAX_FALL_SPEED = 30
+ 
+const H_LOOK_SENS = 0.5
+const V_LOOK_SENS = 0.5
+ 
+onready var cam = $CamBase
+ 
+var y_velo = 0
+ 
+func _input(event):
+	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+	if event is InputEventMouseMotion:
+		cam.rotation_degrees.x -= event.relative.y * V_LOOK_SENS
+		cam.rotation_degrees.x = clamp(cam.rotation_degrees.x, -90, 90)
+		rotation_degrees.y -= event.relative.x * H_LOOK_SENS
+ 
 func _physics_process(delta):
-	velocity += gravity * delta
-	velocity = move_and_slide(velocity, Vector3.UP)
-	
+	var move_vec = Vector3()
 	if Input.is_action_pressed("forewards"):
-			velocity = -transform.basis.z * accel 
+		move_vec.z -= 1
 	if Input.is_action_pressed("backwards"):
-			velocity = transform.basis.z * accel 
-	if Input.is_action_pressed("left"):
-			rotation_degrees.y += 2
+		move_vec.z += 1
 	if Input.is_action_pressed("right"):
-			rotation_degrees.y -= 2
-
-#func _unhandled_input(event):
-#	if event is InputEventMouseMotion:
-	
+		move_vec.x += 1
+	if Input.is_action_pressed("left"):
+		move_vec.x -= 1
+	move_vec = move_vec.normalized()
+	move_vec = move_vec.rotated(Vector3(0, 1, 0), rotation.y)
+	move_vec *= MOVE_SPEED
+	move_vec.y = y_velo
+	move_and_slide(move_vec, Vector3(0, 1, 0))
+ 
+	var grounded = is_on_floor()
+	y_velo -= GRAVITY
+	var just_jumped = false
+	if grounded and Input.is_action_just_pressed("jump"):
+		just_jumped = true
+		y_velo = JUMP_FORCE
+	if grounded and y_velo <= 0:
+		y_velo = -0.1
+	if y_velo < -MAX_FALL_SPEED:
+		y_velo = -MAX_FALL_SPEED
+ 
