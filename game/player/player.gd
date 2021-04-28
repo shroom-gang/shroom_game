@@ -3,7 +3,7 @@ extends KinematicBody
 export var player = {
 	"name" : "none",
 	"traits" : ["SillyTrait","SillyTrait2"],
-	"BaseStats" : [1,1,1,1,1,10]
+	"BaseStats" : [1,1,1,1,1,1]
 }
 
 
