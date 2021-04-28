@@ -55,14 +55,14 @@ func movement(delta):
 	
 	direction = direction.normalized()
 	
-	var bruh = accel if is_on_floor() or is_on_wall() else air_accel
+	var bruh = accel if is_on_floor() else air_accel
 	velocity = velocity.linear_interpolate(direction * speed, bruh * delta)
 	if is_on_floor():
 		y_velocity = -0.01
 	else:
 		y_velocity = clamp(y_velocity - gravity, -terminal_velocity, terminal_velocity)
 	
-	if Input.is_action_pressed("jump") and is_on_floor() or is_on_wall():
+	if Input.is_action_pressed("jump") and is_on_floor():
 		y_velocity = jump
 	
 	velocity.y = y_velocity
